@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Sum_of_multiples_3_5/main.cpp
+iostream
+-
+math.h
+-
+

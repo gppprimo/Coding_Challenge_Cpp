@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Count_the_zeros/main.cpp
+iostream
+-
+vector
+-
+

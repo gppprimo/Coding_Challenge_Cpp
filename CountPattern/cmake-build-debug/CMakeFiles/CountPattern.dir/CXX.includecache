@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peppe/Workspaces/CLionProjects/GenericProblems/CountPattern/main.cpp
+iostream
+-
+vector
+-
+string
+-
+sstream
+-
+
