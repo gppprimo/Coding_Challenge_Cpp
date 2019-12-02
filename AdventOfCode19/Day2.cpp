@@ -31,9 +31,9 @@ vector<string> split(const string & s, char token) {
                 result.push_back(move(ss.str()));
             ss.str("");
         }
-            string tmp = move(ss.str());
-            if (not tmp.empty())
-                result.push_back(move(tmp));
+    string tmp = move(ss.str());
+    if (not tmp.empty())
+        result.push_back(move(tmp));
     return result;
 }
 
@@ -55,7 +55,7 @@ int day_two1(int noun = 12, int verb = 2){
         else if(v[i] == 2)
             v[v[i + 3]] = v[v[i + 1]] * v[v[i + 2]];
         else if(v[i] == 99)
-            return v[0];
+            break;
     }
     return v[0];
 }
