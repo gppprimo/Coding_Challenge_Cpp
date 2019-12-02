@@ -3,7 +3,7 @@
 using namespace std;
 
 // reading input file
-vector<int> read_lines(){
+vector<int> read_lines_day1(){
     vector<int> lines;
     ifstream file;
     string line;
@@ -25,12 +25,12 @@ int _compute2(int x, int y) {
 }
 
 int day_one1(){
-    vector<int> lines = read_lines();
+    vector<int> lines = read_lines_day1();
 //    return std::accumulate(lines.begin(), lines.end(), 0, _compute);
     return std::accumulate(lines.begin(), lines.end(), 0, [](int x, int y){return x + y / 3 -2;});
 }
 
 int day_one2(){
-    vector<int> lines = read_lines();
+    vector<int> lines = read_lines_day1();
     return std::accumulate(lines.begin(), lines.end(), 0, _compute2);
 }

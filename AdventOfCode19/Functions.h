@@ -15,9 +15,16 @@
 using std::string;
 using std::vector;
 using std::ofstream;
+using std::ifstream;
+
+template <class T>
+vector<T> read_input();
 
 int day_one1();
 int day_one2();
+
+int day_two1();
+int day_two2();
 
 
 
