@@ -28,7 +28,7 @@ vector<string> split(const string & s, char token) {
         else {
             string tmp = move(ss.str());
             if (not tmp.empty())
-                result.push_back(move(ss.str()));
+                result.push_back(move(tmp));
             ss.str("");
         }
     string tmp = move(ss.str());
