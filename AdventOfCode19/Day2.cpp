@@ -19,24 +19,6 @@ vector<string> read_lines_day2(){
     return lines;
 }
 
-vector<string> split(const string & s, char token) {
-    vector<string> result;
-    stringstream ss;
-    for (char c : s)
-        if (c != token)
-            ss << c;
-        else {
-            string tmp = move(ss.str());
-            if (not tmp.empty())
-                result.push_back(move(tmp));
-            ss.str("");
-        }
-    string tmp = move(ss.str());
-    if (not tmp.empty())
-        result.push_back(move(tmp));
-    return result;
-}
-
 vector<int> build_vector(const vector<string> &s){
     vector<int> v;
     for(string ss : s)

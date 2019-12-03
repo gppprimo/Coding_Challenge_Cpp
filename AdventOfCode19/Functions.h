@@ -11,20 +11,37 @@
 #include <vector>
 #include <cmath>
 #include <numeric>
+#include <sstream>
+#include <unordered_set>
+#include <map>
+#include <set>
+#include <unordered_map>
 
 using std::string;
 using std::vector;
 using std::ofstream;
 using std::ifstream;
+using std::stringstream;
+using std::pair;
+using std::unordered_set;
+using std::map;
+using std::set;
+using std::unordered_map;
 
+// support functions
 template <class T>
 vector<T> read_input();
+vector<string> split(const string & s, char token);
+//
 
 int day_one1();
 int day_one2();
 
 int day_two1();
 int day_two2();
+
+int day_three1();
+int day_three2();
 
 
 
