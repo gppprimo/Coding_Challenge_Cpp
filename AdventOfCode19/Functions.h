@@ -28,21 +28,28 @@ using std::map;
 using std::set;
 using std::unordered_map;
 
+constexpr const char * path_to_file = "../Input/";
+constexpr const char * file_d11 = "Day1_1.txt";
+constexpr const char * file_d21 = "Day2_1.txt";
+constexpr const char * file_d31 = "Day3_1.txt";
+constexpr const char * file_d41 = "Day4_1.txt";
+
 // support functions
-template <class T>
-vector<T> read_input();
+vector<string> read_input(const char * path_t_f, const char * fn);
 vector<string> split(const string & s, char token);
 //
 
 int day_one1();
 int day_one2();
 
-int day_two1();
+int day_two1(int noun = 12, int verb = 2);
 int day_two2();
 
 int day_three1();
 int day_three2();
 
+int day_four1();
+int day_four2();
 
 
 #endif //ADVENTOFCODE19_FUNCTIONS_H

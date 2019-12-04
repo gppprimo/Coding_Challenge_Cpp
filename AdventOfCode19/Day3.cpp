@@ -1,18 +1,5 @@
 #include "Functions.h"
 
-vector<string> read_lines_day3(){
-    vector<string> lines;
-    ifstream file;
-    string line;
-    file.open("../Input/Day3_1.txt");
-    if (file.is_open()){
-        while (getline (file, line))
-            lines.push_back(line);
-        file.close();
-    } else std::cout << "Unable to open file";
-    return lines;
-}
-
 vector<pair<int, int>> build_path(vector<string> &codes){
     vector<pair<int, int>> path = {};
     int curr_y = 0, curr_x = 0;
@@ -52,7 +39,7 @@ int count_steps(const vector<pair<int, int>> &path, pair<int, int> point){
 
 int day_three1() {
 
-    vector<string> lines = read_lines_day3();
+    vector<string> lines = read_input(path_to_file, file_d31);
     vector<string> codes1 = split(lines[0], ',');
     vector<string> codes2 = split(lines[1], ',');
 
@@ -73,7 +60,7 @@ int day_three1() {
 }
 
 int day_three2(){
-    vector<string> lines = read_lines_day3();
+    vector<string> lines = read_input(path_to_file, file_d31);
     vector<string> codes1 = split(lines[0], ',');
     vector<string> codes2 = split(lines[1], ',');
 

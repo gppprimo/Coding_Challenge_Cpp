@@ -1,21 +1,5 @@
 #include "Functions.h"
 
-using namespace std;
-
-// reading input file
-vector<int> read_lines_day1(){
-    vector<int> lines;
-    ifstream file;
-    string line;
-    file.open("../Input/Day1_1.txt");
-    if (file.is_open()){
-        while (getline (file, line))
-            lines.push_back(std::stoi(line));
-        file.close();
-    } else std::cout << "Unable to open file";
-    return lines;
-}
-
 //int _compute(int x, int y) {return x + y / 3 - 2;};
 int _compute2(int x, int y) {
     int result = 0;
@@ -25,12 +9,19 @@ int _compute2(int x, int y) {
 }
 
 int day_one1(){
-    vector<int> lines = read_lines_day1();
+    vector<string> lines = read_input(path_to_file, file_d11);
+    vector<int> values = {};
+    for(const string &s : lines)
+        values.push_back(stoi(s));
+
 //    return std::accumulate(lines.begin(), lines.end(), 0, _compute);
-    return std::accumulate(lines.begin(), lines.end(), 0, [](int x, int y){return x + y / 3 -2;});
+    return std::accumulate(values.begin(), values.end(), 0, [](int x, int y){return x + y / 3 -2;});
 }
 
 int day_one2(){
-    vector<int> lines = read_lines_day1();
-    return std::accumulate(lines.begin(), lines.end(), 0, _compute2);
+    vector<string> lines = read_input(path_to_file, file_d11);
+    vector<int> values = {};
+    for(const string &s : lines)
+        values.push_back(stoi(s));
+    return std::accumulate(values.begin(), values.end(), 0, _compute2);
 }

@@ -10,7 +10,7 @@ vector<string> read_lines_day2(){
     vector<string> lines;
     ifstream file;
     string line;
-    file.open("../Input/Day2_1.txt");
+    file.open("../input_test/Day2_1.txt");
     if (file.is_open()){
         while (getline (file, line))
             lines.push_back(line);
@@ -26,8 +26,8 @@ vector<int> build_vector(const vector<string> &s){
     return v;
 }
 
-int day_two1(int noun = 12, int verb = 2){
-    vector<string> vs = read_lines_day2();
+int day_two1(int noun, int verb){
+    vector<string> vs = read_input(path_to_file, file_d21);
     vector<int> v = build_vector(split(vs[0], ','));
     v[1] = noun;
     v[2] = verb;
