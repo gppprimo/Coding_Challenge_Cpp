@@ -32,3 +32,11 @@ vector<string> split(const string & s, char token) {
         result.push_back(move(tmp));
     return result;
 }
+
+
+vector<int> build_vector(const vector<string> &s){
+    vector<int> v;
+    for(string ss : s)
+        v.push_back(stoi(ss));
+    return v;
+}
