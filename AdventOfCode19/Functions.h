@@ -54,6 +54,6 @@ int day_four1();
 int day_four2();
 
 void day_five1();
-
+void day_five2();
 
 #endif //ADVENTOFCODE19_FUNCTIONS_H
