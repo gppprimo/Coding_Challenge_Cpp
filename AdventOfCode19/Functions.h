@@ -29,11 +29,13 @@ using std::set;
 using std::unordered_map;
 
 constexpr const char * path_to_file = "../Input/";
+constexpr const char * test_file = "test.txt";
 constexpr const char * file_d11 = "Day1_1.txt";
 constexpr const char * file_d21 = "Day2_1.txt";
 constexpr const char * file_d31 = "Day3_1.txt";
 constexpr const char * file_d41 = "Day4_1.txt";
 constexpr const char * file_d51 = "Day5_1.txt";
+constexpr const char * file_d61 = "Day6_1.txt";
 
 // support functions
 vector<string> read_input(const char * path_t_f, const char * fn);
@@ -55,5 +57,8 @@ int day_four2();
 
 void day_five1();
 void day_five2();
+
+int day_six1();
+int day_six2();
 
 #endif //ADVENTOFCODE19_FUNCTIONS_H
