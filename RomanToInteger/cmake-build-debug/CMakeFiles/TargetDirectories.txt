@@ -1,0 +1,3 @@
+C:/Users/Peppe/CLionProjects/RomanToInteger/cmake-build-debug/CMakeFiles/RomanToInteger.dir
+C:/Users/Peppe/CLionProjects/RomanToInteger/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Peppe/CLionProjects/RomanToInteger/cmake-build-debug/CMakeFiles/rebuild_cache.dir
