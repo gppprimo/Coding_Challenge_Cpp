@@ -1,3 +1,0 @@
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Sum_of_multiples_3_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Sum_of_multiples_3_5/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Sum_of_multiples_3_5/cmake-build-debug/CMakeFiles/Sum_of_multiples_3_5.dir

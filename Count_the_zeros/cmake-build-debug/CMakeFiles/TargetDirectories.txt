@@ -1,3 +1,0 @@
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Count_the_zeros/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Count_the_zeros/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Peppe/Workspaces/CLionProjects/Algorithms_and_Data_Structures/Count_the_zeros/cmake-build-debug/CMakeFiles/Count_the_zeros.dir
